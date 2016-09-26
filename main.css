@@ -90,4 +90,8 @@ h1 {
 		top: -60px;
 		padding: 0px 0px 5px 0px;
 	}
+	
+	.close-icon {
+		padding: 0px 0px 0px 2px;
+	}
 }
