@@ -62,3 +62,8 @@ body {
 .close-icon h3 {
 	margin: 10px 0px 0px 2px;
 }
+
+.script {
+	font-size: 30px;
+	margin: 0px 0px 0px 90%;
+}
