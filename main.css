@@ -85,4 +85,8 @@ h1 {
 	.close-icon {
 		width: 60px;
 	}
+	
+	.open-icon {
+		-30px;
+	}
 }
