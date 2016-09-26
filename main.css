@@ -91,6 +91,7 @@ h1 {
 	}
 	
 	.open-icon i {
+		margin-top: -2px;
 		margin-bottom: 2px;
 	}
 }
