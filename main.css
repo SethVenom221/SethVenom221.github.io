@@ -94,4 +94,8 @@ h1 {
 	.close-icon {
 		padding: 0px 0px 0px 3px;
 	}
+	
+	h1 {
+		font-size: 10px;
+	}
 }
