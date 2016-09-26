@@ -88,9 +88,6 @@ h1 {
 	
 	.open-icon {
 		top: -60px;
-	}
-	
-	.open-icon i {
-		padding: 3px 0px 3px 0px;
+		margin: 0px 0px 3px 0px;
 	}
 }
