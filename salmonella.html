@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Baby-Chickens</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="http://media.istockphoto.com/photos/baby-chicken-picture-id184154297?k=6&m=184154297&s=170667a&w=0&h=q7hZPGI8F8tQGa62bTxND7SGbyWspn7PvB-t2fFnrs8=" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<div class="menu">
+			<div class="close-icon">
+				<h3>Close</h3>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Social</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="open-icon">
+			<i class="fa fa-bars"> Menu </i>
+		</div>
+
+		<header>
+			<h1>Home</h1>
+		</header>
+
+		<section>
+			<div class="script">
+				<script type="text/javascript">
+
+					today = new Date();
+
+					BigDay = new Date("October 6, 2016");
+					msPerDay = 24 * 60 * 60 * 1000 ;
+					timeLeft = (BigDay.getTime() - today.getTime());
+					e_daysLeft = timeLeft / msPerDay;
+					daysLeft = Math.floor(e_daysLeft);
+					e_hrsLeft = (e_daysLeft - daysLeft)*24;
+					hrsLeft = Math.floor(e_hrsLeft);
+					minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+					document.write("There are only<BR> <H4>" + daysLeft + " days left");
+				</script>
+			</div>
+			<img src="salmonella poster.pdf" />
+		</section>
+
+		<footer>
+			
+		</footer>
+	</body>
+</html>
