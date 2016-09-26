@@ -66,4 +66,7 @@ body {
 .script {
 	font-size: 30px;
 	margin: 0px 0px 0px 90%;
+	position: fixed;
+	top: 10px;
+	right: 10px;
 }
