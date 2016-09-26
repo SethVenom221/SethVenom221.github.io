@@ -4,7 +4,11 @@ body {
 	overflow: hidden;
 }
 
-
+h1 {
+	text-align: center;
+	position: relative;
+	top: -60px;
+}
 
 .menu {
 	height: 100%;
