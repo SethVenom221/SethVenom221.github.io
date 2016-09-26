@@ -73,7 +73,11 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-	body {
-		background-color: blue;
+	.open-icon {
+		width: 100px;
+	}
+	
+	.close-icon {
+		width: 60px;
 	}
 }
