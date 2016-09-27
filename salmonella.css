@@ -1,4 +1,6 @@
-
+.open-icon {
+	top:-40px;
+}
 
 @media only screen and (max-width:480px) {
 	.script {
