@@ -1,6 +1,9 @@
 @media only screen and (max-width:480px) {
 	.open-icon {
 		width: 70px;
+	}
+	
+	.open-icon i {
 		font-size:10px;
 	}
 }
