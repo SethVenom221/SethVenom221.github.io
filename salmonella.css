@@ -5,3 +5,9 @@
 .salm {
 	text-align: center;	
 }
+
+@media only screen and (max-width:480px) {
+	.script {
+		z-index: 200;
+	}
+}
