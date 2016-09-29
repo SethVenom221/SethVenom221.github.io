@@ -1,4 +1,5 @@
 body {
+	background-image: url("https://s3.amazonaws.com/spweb-uploads/2013/10/baby-chicks.jpg")
 	background-color: lightgrey;
 	position: relative;
 	overflow-x: hidden;
