@@ -87,7 +87,7 @@ h1 {
 	z-index: -1;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) or (min-width:480px) {
 	.open-icon {
 		width: 100px;
 	}
