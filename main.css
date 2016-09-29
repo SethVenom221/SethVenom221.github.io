@@ -1,5 +1,5 @@
 body {
-	background-image: lightgrey url("https://s3.amazonaws.com/spweb-uploads/2013/10/baby-chicks.jpg");
+	background-image: url("https://s3.amazonaws.com/spweb-uploads/2013/10/baby-chicks.jpg");
 	position: relative;
 	overflow-x: hidden;
 }
