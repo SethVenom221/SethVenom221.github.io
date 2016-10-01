@@ -94,6 +94,10 @@ h1 {
 		padding: 0px 0px 5px 0px;
 	}
 	
+	.open-icon i {
+		margin: 0px 0px 10px 10px;
+	}
+	
 	.close-icon {
 		width: 60px;
 		padding: 0px 0px 0px 3px;
