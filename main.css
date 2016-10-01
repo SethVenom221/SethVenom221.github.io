@@ -90,18 +90,12 @@ h1 {
 @media only screen and (max-width: 500px) or (min-width:480px) {
 	.open-icon {
 		width: 100px;
-	}
-	
-	.close-icon {
-		width: 60px;
-	}
-	
-	.open-icon {
 		top: -40px;
 		padding: 0px 0px 5px 0px;
 	}
 	
 	.close-icon {
+		width: 60px;
 		padding: 0px 0px 0px 3px;
 	}
 	
