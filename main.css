@@ -114,5 +114,6 @@ h1 {
 	iframe {
 		width: 50%;
 		height: 50%;
+		margin: 30px 10px;
 	}
 }
