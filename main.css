@@ -9,6 +9,10 @@ section table {
 	background-color: #5b5b5b;
 }
 
+section table tr {
+	background-color: #5b5b5b;
+}
+
 section table td {
 	padding: 5px;
 	border: 2px solid black;
