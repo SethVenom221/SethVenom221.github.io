@@ -11,8 +11,6 @@ body {
 iframe {
 	display: block;
 	margin: 30px auto;
-	width: 20%;
-	height: 20%;
 }
 
 h1 {
@@ -115,5 +113,6 @@ h1 {
 	
 	iframe {
 		width: 20%;
+		height: 20%;
 	}
 }
