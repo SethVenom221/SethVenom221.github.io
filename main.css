@@ -11,6 +11,7 @@ body {
 iframe {
 	display: block;
 	margin: 30px auto;
+	width: 20%;
 }
 
 h1 {
