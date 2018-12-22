@@ -4,7 +4,7 @@ const myParam = urlParams.get('test');
 function makeApiCall() {
       var params = {
         // The ID of the spreadsheet to update.
-        spreadsheetId: '1-DcqMiS4qUf__GBB2VJKaSvcw7neX6hiHoMvtVbn19c',  // TODO: Update placeholder value.
+        spreadsheetId: '1t3lQoeYeB7hU3T6losoFcJowudRybLDf6LJeOFa4aQ4',  // TODO: Update placeholder value.
 
         // The A1 notation of a range to search for a logical table of data.
         // Values will be appended after the last row of the table.
@@ -36,7 +36,7 @@ function makeApiCall() {
     function initClient() {
       var API_KEY = '---';  // TODO: Update placeholder with desired API key.
 
-      var CLIENT_ID = '323222569022-9i8q4sou3k46dqk7auevj22rd0n0s94a.apps.googleusercontent.com';  // TODO: Update placeholder with desired client ID.
+      var CLIENT_ID = '867106802265-eekh6ha7hbq72khlvka44rnm0ium3mrd.apps.googleusercontent.com';  // TODO: Update placeholder with desired client ID.
 
       // TODO: Authorize using one of the following scopes:
       //   'https://www.googleapis.com/auth/drive'
