@@ -1,6 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('test');
 
+const api_key = config.API_KEY;
+const client_id = config.CLIENT_ID;
+
 function makeApiCall() {
       var params = {
         // The ID of the spreadsheet to update.
@@ -34,9 +37,9 @@ function makeApiCall() {
     }
 
     function initClient() {
-      var API_KEY = '---';  // TODO: Update placeholder with desired API key.
+      var API_KEY = api_key;  // TODO: Update placeholder with desired API key.
 
-      var CLIENT_ID = '867106802265-eekh6ha7hbq72khlvka44rnm0ium3mrd.apps.googleusercontent.com';  // TODO: Update placeholder with desired client ID.
+      var CLIENT_ID = client_id;  // TODO: Update placeholder with desired client ID.
 
       // TODO: Authorize using one of the following scopes:
       //   'https://www.googleapis.com/auth/drive'
