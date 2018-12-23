@@ -77,6 +77,6 @@ function makeApiCall() {
     }
 
     document.body.onload = function(){
-          handleClientLoad();
+          //handleClientLoad();
           //handleSignInClick();
     };
