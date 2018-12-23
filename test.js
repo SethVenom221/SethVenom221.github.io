@@ -1,8 +1,8 @@
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('test');
 
-const api_key = config.API_KEY;
-const client_id = config.CLIENT_ID;
+const api_key = config.API_KEY2;
+const client_id = config.CLIENT_ID2;
 
 function makeApiCall() {
       var params = {
