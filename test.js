@@ -47,19 +47,19 @@ function makeApiCall() {
       //   'https://www.googleapis.com/auth/spreadsheets'
       var SCOPE = 'https://www.googleapis.com/auth/spreadsheets';
 
-      gapi.client.init({
+      window.gapi.client.init({
         'apiKey': API_KEY,
         'clientId': CLIENT_ID,
         'scope': SCOPE,
         'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
       }).then(function() {
-        gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus);
-        updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+        window.gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus);
+        updateSignInStatus(window.gapi.auth2.getAuthInstance().isSignedIn.get());
       });
     }
 
     function handleClientLoad() {
-      gapi.load('client:auth2', initClient);
+      window.gapi.load('client:auth2', initClient);
     }
 
     function updateSignInStatus(isSignedIn) {
@@ -69,11 +69,11 @@ function makeApiCall() {
     }
 
     function handleSignInClick(event) {
-      gapi.auth2.getAuthInstance().signIn();
+      window.gapi.auth2.getAuthInstance().signIn();
     }
 
     function handleSignOutClick(event) {
-      gapi.auth2.getAuthInstance().signOut();
+      window.gapi.auth2.getAuthInstance().signOut();
     }
 
     document.body.onload = handleSignInClick();
