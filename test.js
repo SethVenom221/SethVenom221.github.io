@@ -76,4 +76,7 @@ function makeApiCall() {
       gapi.auth2.getAuthInstance().signOut();
     }
 
-    document.body.onload = handleSignInClick();
+    document.body.onload = function(){
+          handleClientLoad();
+          handleSignInClick();
+    };
