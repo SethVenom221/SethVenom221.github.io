@@ -78,5 +78,5 @@ function makeApiCall() {
 
     document.body.onload = function(){
           handleClientLoad();
-          handleSignInClick();
+          //handleSignInClick();
     };
